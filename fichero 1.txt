@@ -1,1 +1,47 @@
 fichero 1
+
+get init
+git status
+git config --global user.name "joan rubio"
+git config --global user.e,ail "jrubio@fihoca.com"
+git commit -m "mensaje"
+
+**********************************************************
+
+Típico mworkflow
+
+git status
+git add .
+git commit -m "mensaje del cambio"
+
+**********************************************************
+
+¿Cómo listar los commits?
+
+git log
+
+¿como asociar el repositorio remoto a nuestro local?
+
+git remote add origin https://github.com/JoanRubioTugas/manual_git.git
+
+vinculamos el repositorio local con un repositorio remoto
+en este caso lo hacemos desde la rama master
+
+el nombre origin es por tradición, no es obloigatior, pero se suele poner asi
+
+la url es la del repositorio remoto.
+
+¿como trasladar los cambio de nuestro repositoripo local al remoto (origin)?
+
+git push origin master
+
+
+
+
+
+https://github.com/JoanRubioTugas/manual_git
+
+url del repositorio remoto en github
+
+
+
